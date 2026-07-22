@@ -53,7 +53,7 @@ In Arduino IDE 2.x, select the following settings under **Tools**:
 [OK] Camera hardware initialized successfully.
 [WIFI] Connecting to SSID: MY_SSID ...
 [OK] WiFi Connected!
-[INFO] Video Stream URL: [http://10.161.171.187](http://10.161.171.187)
+[INFO] Video Stream URL: [http://10.161.x.x](http://10.161.x.x)
 [OK] HTTP Server started successfully.
 [Stream] 10 frames transmitted successfully
 [Stream] 20 frames transmitted successfully
