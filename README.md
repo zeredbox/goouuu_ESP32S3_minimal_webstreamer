@@ -28,20 +28,23 @@ A minimal **HTTP MJPEG video streaming server** tailored specifically for the **
 | **HREF** | GPIO 7 | **Y3** | GPIO 9 |
 | **PCLK** | GPIO 13 | **Y2** | GPIO 11 |
 
-## ⚙️ Arduino IDE Configuration
+## 💻 Software Setup
 
-In Arduino IDE 2.x, select the following settings under **Tools**:
+### 1. Install Arduino IDE
+Download and install the latest **Arduino IDE** (2.x recommended) from [arduino.cc/en/software](https://www.arduino.cc/en/software).
 
-* **Board:** `ESP32S3 Dev Module`
-* **PSRAM:** `OPI PSRAM` *(⚠️ CRITICAL for N16R8 boards)*
-* **Flash Size:** `16MB (128Mb)`
-* **Partition Scheme:** `16M Flash (3MB APP / 9.9MB FATFS)`
-* **Core Debug Level:** `None`
+### 2. Install ESP32 Board Package
+1. Open **Arduino IDE**.
+2. Go to **Tools** > **Board** > **Boards Manager...**
+3. Search for **"esp32"** and install **"esp32 by Espressif Systems"**.
 
-## 🌐 HTTP Endpoints
-
-* **`http://<ESP32_IP>/`** : Web interface containing the live video player.
-* **`http://<ESP32_IP>/stream`** : Raw MJPEG stream (compatible with Home Assistant, OpenCV, MotionEye, VLC, etc.).
+### 3. Board Selection & Configuration
+1. Go to **Tools** > **Board** > **esp32** > Select **`ESP32S3 Dev Module`**.
+2. Configure the following settings under the **Tools** menu:
+   * **PSRAM:** `OPI PSRAM` *(⚠️ CRITICAL for N16R8 boards)*
+   * **Flash Size:** `16MB (128Mb)`
+   * **Partition Scheme:** `16M Flash (3MB APP / 9.9MB FATFS)`
+   * **Core Debug Level:** `None`
 
 ## 🖼️ Preview & Serial Output
 
@@ -61,9 +64,13 @@ In Arduino IDE 2.x, select the following settings under **Tools**:
 [Stream] 40 frames transmitted successfully
 ```
 
+## 🌐 HTTP Endpoints
+
+* **`http://<ESP32_IP>/`** : Web interface containing the live video player.
+* **`http://<ESP32_IP>/stream`** : Raw MJPEG stream (compatible with Home Assistant, OpenCV, MotionEye, VLC, etc.).
+
 ### Web Page Output
 <img width="992" height="802" alt="goouuu-video-output" src="https://github.com/user-attachments/assets/5508fc9d-03ad-4698-adbd-2c99dbfc307e" />
-
 
 ## 📄 License
 
