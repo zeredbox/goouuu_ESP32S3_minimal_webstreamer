@@ -4,7 +4,7 @@
  * HARDWARE     : Goouuu ESP32-S3 N16R8 (16MB Flash / 8MB OPI PSRAM) + OV2640
  * DATE         : July 2026
  * AUTHOR       : Zeredbox
- * WEBSITE      : https://github.com/zeredbox/
+ * WEBSITE      : https://github.com/zeredbox/goouuu_ESP32S3_minimal_webstreamer
  * LICENSE      : Unlicense license
  *
  * IDE BOARD CONFIGURATION (Arduino IDE 2.x):
