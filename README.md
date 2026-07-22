@@ -63,6 +63,9 @@ In Arduino IDE 2.x, select the following settings under **Tools**:
 [Stream] 30 frames transmitted successfully
 [Stream] 40 frames transmitted successfully
 
+<img width="992" height="802" alt="goouuu-video-output" src="https://github.com/user-attachments/assets/5508fc9d-03ad-4698-adbd-2c99dbfc307e" />
+
+
 ## 📄 License
 
 Unlicense License
