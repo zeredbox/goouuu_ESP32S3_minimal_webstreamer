@@ -31,8 +31,8 @@
 #include "esp_http_server.h"
 
 // --- WIFI CREDENTIALS ---
-const char* wifi_ssid     = "YOUR_SSID";
-const char* wifi_password = "YOUR_PWD";
+const char* wifi_ssid     = "Your_WiFi_Name";
+const char* wifi_password = "Your_WiFi_Password";
 
 // --- GOOUUU ESP32-S3 CAMERA PINOUT DEFINITIONS ---
 #define PWDN_GPIO_NUM     21
