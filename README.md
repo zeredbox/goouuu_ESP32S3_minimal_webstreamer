@@ -43,6 +43,26 @@ In Arduino IDE 2.x, select the following settings under **Tools**:
 * **`http://<ESP32_IP>/`** : Web interface containing the live video player.
 * **`http://<ESP32_IP>/stream`** : Raw MJPEG stream (compatible with Home Assistant, OpenCV, MotionEye, VLC, etc.).
 
+## 🖼️ Preview & Serial Output
+
+### Preview
+
+
+### Serial Monitor Output
+```text
+==========================================
+   ESP32-S3 CAMERA STREAMER INITIALIZATION 
+==========================================
+[OK] Camera hardware initialized successfully.
+[WIFI] Connecting to SSID: MY_SSID ...
+[OK] WiFi Connected!
+[INFO] Video Stream URL: [http://10.161.171.187](http://10.161.171.187)
+[OK] HTTP Server started successfully.
+[Stream] 10 frames transmitted successfully
+[Stream] 20 frames transmitted successfully
+[Stream] 30 frames transmitted successfully
+[Stream] 40 frames transmitted successfully
+
 ## 📄 License
 
 Unlicense License
