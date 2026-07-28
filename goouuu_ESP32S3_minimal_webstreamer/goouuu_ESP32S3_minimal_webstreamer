@@ -12,6 +12,7 @@
  * IDE BOARD CONFIGURATION (Arduino IDE 2.x):
  * -----------------------------------------------------------------------------
  * - Board            : "ESP32S3 Dev Module"
+ - - USB CDC On Boot  : "Enabled"
  * - Flash Size       : "16MB (128Mb)"
  * - PSRAM            : "OPI PSRAM"   <-- CRITICAL for N16R8 boards
  * - Partition Scheme : "16M Flash (3MB APP / 9.9MB FATFS)"
