@@ -9,7 +9,7 @@
  *
  * FRAMEWORK    : ESP32 Arduino Core v3.3.x
  *
- * IDE BOARD CONFIGURATION (Arduino IDE 2.x):
+ * IDE BOARD CONFIGURATION (Arduino IDE 2.3.x):
  * -----------------------------------------------------------------------------
  * - Board            : "ESP32S3 Dev Module"
  - - USB CDC On Boot  : "Enabled"
