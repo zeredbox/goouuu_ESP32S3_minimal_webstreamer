@@ -7,6 +7,8 @@
  * WEBSITE      : https://github.com/zeredbox/goouuu_ESP32S3_minimal_webstreamer
  * LICENSE      : Unlicense license
  *
+ * FRAMEWORK    : ESP32 Arduino Core v3.3.x
+ *
  * IDE BOARD CONFIGURATION (Arduino IDE 2.x):
  * -----------------------------------------------------------------------------
  * - Board            : "ESP32S3 Dev Module"
