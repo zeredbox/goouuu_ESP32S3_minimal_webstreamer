@@ -7,17 +7,6 @@
  * WEBSITE      : https://github.com/zeredbox/goouuu_ESP32S3_minimal_webstreamer
  * LICENSE      : Unlicense license
  *
- * FRAMEWORK    : ESP32 Arduino Core v3.3.x
- *
- * IDE BOARD CONFIGURATION (Arduino IDE 2.3.x):
- * -----------------------------------------------------------------------------
- * - Board            : "ESP32S3 Dev Module"
- - - USB CDC On Boot  : "Enabled"
- * - Flash Size       : "16MB (128Mb)"
- * - PSRAM            : "OPI PSRAM"   <-- CRITICAL for N16R8 boards
- * - Partition Scheme : "16M Flash (3MB APP / 9.9MB FATFS)"
- * - Core Debug Level : "None"
- *
  * DESCRIPTION:
  * Minimal, lightweight, high-performance HTTP MJPEG video streaming server 
  * tailored specifically for the Goouuu ESP32-S3 board with OPI PSRAM.
@@ -26,7 +15,22 @@
  * 1. Zero-bloat, minimal footprint MJPEG HTTP streaming engine.
  * 2. Disabled WiFi Power Saving (`WiFi.setSleep(false)`) to eliminate frame latency.
  * 3. Double buffering in OPI PSRAM for smooth asynchronous frame capture.
- * 4. Custom logging system with embedded web console log.
+ * 4. Custom logging system with embedded web console log. 
+ *
+ * FRAMEWORK    : ESP32 Arduino Core v3.3.x
+ *
+ * IDE BOARD CONFIGURATION (Arduino IDE 2.3.x):
+ * -----------------------------------------------------------------------------
+ * - Physical Connection: Connect the USB-C cable to the OTG (USB) port
+ * - Board                    : "ESP32S3 Dev Module"
+ * - USB CDC On Boot          : "Enabled"
+ * - USB Firmware MSC On Boot : "Disabled"
+ * - Flash Size               : "16MB (128Mb)"
+ * - PSRAM                    : "OPI PSRAM"   <-- CRITICAL for N16R8 boards
+ * - Partition Scheme         : "16M Flash (3MB APP / 9.9MB FATFS)"
+ * - Core Debug Level         : "None"
+ * - USB DFU On Boot          : "Disabled"
+ *
  *******************************************************************************/
 
 #include "esp_camera.h"
