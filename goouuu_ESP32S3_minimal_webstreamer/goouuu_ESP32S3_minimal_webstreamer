@@ -8,7 +8,7 @@
  * LICENSE      : Unlicense license
  *
  * DESCRIPTION:
- * Minimal, lightweight, high-performance HTTP MJPEG video streaming server 
+ * Minimal, lightweight, HTTP MJPEG video streaming server 
  * tailored specifically for the Goouuu ESP32-S3 board with OPI PSRAM.
  *
  * KEY FEATURES:
